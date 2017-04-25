@@ -38,8 +38,8 @@
 	$.each(data.table,function(){thead+="<th>"+this+"</th>";});
 	thead+="</tr></thead>";
 	var tables = new Array();
-	$.each(data.data,function(){tables.push(toTable(this.mesures,thead));});
-	$.each(tables,function(){$("#content").append(this);});
+	$.each(data.data,function(){tables.push({"title":this.titre,"table":toTable(this.mesures,thead)});});
+	$.each(tables,function(){$("#content").append("<h2>"+this.title+"</h2>"+this.table);});
 
   }
   
