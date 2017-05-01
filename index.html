@@ -1,50 +1,136 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-<meta charset="UTF-8">
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<script
-  src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-  <script src="data_2017.js"></script>
+    <script src=" data_2017.js"></script>
 </head>
-<body>
-  <h1>Promesses tenues?</h1>
-  <div id="content"></div>
-  <script>
-  function toTable(mesures,headers){
-	var table="<table class='table table-stripped'>";
-	table+=headers;
-	table+="<tbody>";
-	$.each($(mesures),function(){
-		var row="<tr id='"+this.anchor+"'>";
-		row+="<td >"+this.title+"</td>";
-		row+="<td >"+this.description+"</td>";
-		row+="<td >"+this.tenu+"</td>";
-		row+="<td >"+this.source_tenu+"</td>";
-		row+="</tr>";
-		table+=row;
-	});
-	table+="</tbody>";
-	table+="</table>";
-	return table;
-  }
-  
-  function init(data){
-	var thead = "<thead><tr>";
-	$.each(data.table,function(){thead+="<th>"+this+"</th>";});
-	thead+="</tr></thead>";
-	var tables = new Array();
-	$.each(data.data,function(){tables.push({"title":this.titre,"table":toTable(this.mesures,thead)});});
-	$.each(tables,function(){$("#content").append("<h2>"+this.title+"</h2>"+this.table);});
 
-  }
-  
-   $(function(){
-	init(data_2017);
-   });
-  </script>
+<body>
+    <h1>Promesses tenues?</h1>
+    <div id="tags"></div>
+    <div id="content"></div>
+    <script>
+        function formatTenu(tenu) {
+            return tenu ? "✔" : "✗";
+        }
+
+        function getAllTags(data_2017) {
+            var tags = new Array();
+            $.each(data_2017.data, function() {
+                $.each(this.mesures, function() {
+                    $.each(this.tags, function() {
+                        if ($.inArray(this, tags) == -1) {
+                            tags.push(this);
+                        }
+                    })
+
+                })
+            })
+            return tags;
+        }
+
+        function toggleFilterTag(tagElement) {
+            var tagValue = $(tagElement).text();
+            tagFilter.toggleFilterData(tagValue);
+        }
+
+        function toTable(mesures, headers) {
+            var table = "<table class='table table-stripped'>";
+            table += headers;
+            table += "<tbody>";
+            $.each($(mesures), function() {
+                var row = "<tr id='" + this.anchor + "'>";
+                row += "<td >" + this.title + "</td>";
+                row += "<td >" + this.description + "</td>";
+                row += "<td >" + formatTenu(this.tenu) + "</td>";
+                row += "<td >" + this.source_tenu + "</td>";
+                row += "<td >";
+                $.each(this.tags, function() {
+                    row += "<span class='badge'>" + this + "</span>";
+                });
+
+                row += "</td>";
+                row += "</tr>";
+                table += row;
+            });
+            table += "</tbody>";
+            table += "</table>";
+            return table;
+        }
+
+        function init(data) {
+            $("#content").children().remove();
+            $("#tags").children().remove();
+
+            var thead = "<thead><tr>";
+            $.each(data.table, function() {
+                thead += "<th>" + this + "</th>";
+            });
+            thead += "</tr></thead>";
+            var tables = new Array();
+            $.each(data.data, function() {
+                tables.push({
+                    "title": this.titre,
+                    "table": toTable(this.mesures, thead)
+                });
+            });
+            $.each(tables, function() {
+                $("#content").append("<h2>" + this.title + "</h2>" + this.table);
+            });
+
+            $.each(getAllTags(data), function() {
+                $("#tags").append("<span class='badge' onclick='toggleFilterTag(this); init(filter(data_2017, tagFilter))'>" + this + "</span>");
+            })
+
+        }
+
+
+        var tagFilter = {
+            filterFunction: function(mesure, filterData) {
+                var found = false;
+                if (filterData.length == 0) {
+                    return true
+                }
+                if (mesure.tags !== undefined) {
+                    var tags = mesure.tags;
+
+                    for (tag in tags) {
+                        for (tag2 in filterData) {
+                            if (tag === tag2) {
+                                found = true;
+                            }
+                        }
+                    }
+                }
+                return found;
+            },
+            toggleFilterData: function(data) {
+                if ($.inArray(data, this.filterData) >= 0) {
+                    this.filterData = this.filterData.filter((e) => e !== data);
+                } else {
+                    this.filterData.push(data);
+                }
+            },
+            filterData: []
+        };
+
+        function filter(data, tagFilter) {
+            var filteredData2017 = JSON.parse(JSON.stringify(data))
+
+            $.each(filteredData2017.data, function() {
+                this.mesures = this.mesures.filter((mesure) => tagFilter.filterFunction(mesure, tagFilter.filterData))
+
+            })
+            return filteredData2017;
+        }
+
+        $(function() {
+            init(filter(data_2017, tagFilter));
+        });
+    </script>
 </body>
