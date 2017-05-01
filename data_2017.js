@@ -9,7 +9,7 @@
                      "description": "Sans que cela ne revienne plus cher aux employeurs, nous réduirons les cotisations payées par les salariés, par les indépendants et par les fonctionnaires: près de 500 euros supplémentaires nets par an pour un salaire de 2200 euros nets par mois!",
                      "tenu": false,
                      "source_tenu": "",
-                     "tags": []
+                     "tags": ["pouvoir d'achat", "cotisations sociales", "indépendants", "fonctionnaires", "salaire"]
                  },
                  {
                      "anchor": "pouvoir-achat-pauvres",
@@ -17,7 +17,7 @@
                      "description": "Tous les smicards qui bénéficient de la prime d’activité toucheront par exemple l’équivalent d’un 13e mois de salaire, soit 100€ nets de plus chaque mois.",
                      "tenu": false,
                      "source_tenu": "",
-                     "tags": ["pouvoir d'achat", "smic", "prime d'activité"]
+                     "tags": ["pouvoir d'achat", "smic", "prime d'activité", "salaire"]
                  },
                  {
                      "anchor": "exonerations-cotisations-sociales",
@@ -25,7 +25,7 @@
                      "description": "",
                      "tenu": false,
                      "source_tenu": "",
-                     "tags": []
+                     "tags": ["35H", "heures supplémentaires", "cotisations sociales"]
                  },
                  {
                      "anchor": "chomage-si-demission",
@@ -33,7 +33,7 @@
                      "description": "Ce droit ne sera utilisable qu’une fois tous les cinq ans. En contrepartie, l’insuffisance des efforts de recherche d’emploi ou le refus d’offres raisonnables entraîneront la suspension des allocations.",
                      "tenu": false,
                      "source_tenu": "",
-                     "tags": []
+                     "tags": ["chômage", "démission", "salarié"]
                  },
                  {
                      "anchor": "formation",
@@ -41,7 +41,7 @@
                      "description": "Nous formerons 1 million de jeunes et 1 million de demandeurs d’emploi peu ou pas qualifiés et aujourd’hui sans perspective.",
                      "tenu": false,
                      "source_tenu": "",
-                     "tags": []
+                     "tags": ["formation", "jeunes"]
                  },
                  {
                      "anchor": "aide-agriculteurs",
@@ -49,7 +49,7 @@
                      "description": "5 milliards d’euros de notre Plan d’investissement seront consacrés à la modernisation de leurs exploitations. Et nous les aiderons à être payés au prix juste en soutenant les organisations de producteurs dans leurs négociations avec les industriels. Nous nous battrons pour faire évoluer dans ce sens le droit européen de la concurrence.",
                      "tenu": false,
                      "source_tenu": "",
-                     "tags": []
+                     "tags": ["agriculteurs", "aides publiques", "subventions"]
                  },
                  {
                      "anchor": "apprentissage",
@@ -57,7 +57,7 @@
                      "description": "Nous développerons les périodes de pré-apprentissage et les filières en alternance dans tous les lycées professionnels. Des licences professionnelles seront préparées sur trois ans et en alternance. Nous ferons converger les contrats existants et impliquerons pleinement les branches professionnelles dans la définition des programmes et l’organisation des formations.",
                      "tenu": false,
                      "source_tenu": "",
-                     "tags": []
+                     "tags": ["apprentissage", "alternance", "formation"]
                  }
              ]
          },

@@ -63,17 +63,19 @@
             return table;
         }
 
-        function init(data) {
+        function init(data, taFilter) {
+            initAllTags(data);
             $("#content").children().remove();
-            $("#tags").children().remove();
+
+            var filteredData = filter(data, tagFilter);
 
             var thead = "<thead><tr>";
-            $.each(data.table, function() {
+            $.each(filteredData.table, function() {
                 thead += "<th>" + this + "</th>";
             });
             thead += "</tr></thead>";
             var tables = new Array();
-            $.each(data.data, function() {
+            $.each(filteredData.data, function() {
                 tables.push({
                     "title": this.titre,
                     "table": toTable(this.mesures, thead)
@@ -83,12 +85,16 @@
                 $("#content").append("<h2>" + this.title + "</h2>" + this.table);
             });
 
-            $.each(getAllTags(data), function() {
-                $("#tags").append("<span class='badge' onclick='toggleFilterTag(this); init(filter(data_2017, tagFilter))'>" + this + "</span>");
-            })
+
 
         }
 
+        function initAllTags(data) {
+            $("#tags").children().remove();
+            $.each(getAllTags(data_2017), function() {
+                $("#tags").append("<span class='badge' onclick='toggleFilterTag(this); init(filter(data_2017, tagFilter))'>" + this + "</span>");
+            })
+        }
 
         var tagFilter = {
             filterFunction: function(mesure, filterData) {
@@ -99,8 +105,8 @@
                 if (mesure.tags !== undefined) {
                     var tags = mesure.tags;
 
-                    for (tag in tags) {
-                        for (tag2 in filterData) {
+                    for (var tag of tags) {
+                        for (var tag2 of filterData) {
                             if (tag === tag2) {
                                 found = true;
                             }
@@ -123,14 +129,16 @@
             var filteredData2017 = JSON.parse(JSON.stringify(data))
 
             $.each(filteredData2017.data, function() {
-                this.mesures = this.mesures.filter((mesure) => tagFilter.filterFunction(mesure, tagFilter.filterData))
+                var newMesures = this.mesures.filter((mesure) => tagFilter.filterFunction(mesure, tagFilter.filterData));
+                this.mesures = newMesures;
 
             })
             return filteredData2017;
         }
 
         $(function() {
-            init(filter(data_2017, tagFilter));
+            init(data_2017, tagFilter);
+
         });
     </script>
 </body>
