@@ -295,14 +295,155 @@
              "anchor": "securite",
              "titre": "Sécurité",
              "mesures": [{
-                 "anchor": "recrutement-policiers-gendarmes",
-                 "title": "Nous recruterons 10 000 policiers et gendarmes supplémentaires.",
-                 "description": "Ils renforceront notamment notre dispositif de renseignement contre le terrorisme.",
+                     "anchor": "recrutement-policiers-gendarmes",
+                     "title": "Nous recruterons 10 000 policiers et gendarmes supplémentaires.",
+                     "description": "Ils renforceront notamment notre dispositif de renseignement contre le terrorisme.",
+                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                     "tenu": false,
+                     "source_tenu": "",
+                     "tags": ["recrutement", "policiers", "gendarmes", "terrorisme"]
+                 },
+                 {
+                     "anchor": "police-proximite",
+                     "title": "Nous créerons une police de sécurité quotidienne.",
+                     "description": "Au plus près des Français, elle développera une connaissance approfondie des lieux et des habitants qu’elle sera chargée de protéger et d’entendre.",
+                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                     "tenu": false,
+                     "source_tenu": "",
+                     "tags": ["police", "proximité"]
+                 },
+                 {
+                     "anchor": "policiers-gendarmes-nouveaux-pouvoirs",
+                     "title": "Nous donnerons aux policiers et aux gendarmes un nouveau pouvoir",
+                     "description": "sous le contrôle du juge, ils pourront interdire à une personne délinquante de fréquenter le quartier où elle a commis ses délits.",
+                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                     "tenu": false,
+                     "source_tenu": "",
+                     "tags": ["policiers", "gendarmes", ""]
+                 },
+                 {
+                     "anchor": "incivilites",
+                     "title": "Nous ne tolèrerons plus les incivilités.",
+                     "description": "Le harcèlement des femmes, les insultes, la dégradation du mobilier urbain, les crachats... Ces incivilités seront punies d’amendes immédiates et dissuasives.",
+                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                     "tenu": false,
+                     "source_tenu": "",
+                     "tags": ["harcèlement", "incivilités"]
+                 }, {
+                     "anchor": "execution-peines",
+                     "title": "Toute peine prononcée sera exécutée.",
+                     "description": "",
+                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                     "tenu": false,
+                     "source_tenu": "",
+                     "tags": ["exécution des peines"]
+                 },
+                 {
+                     "anchor": "prison",
+                     "title": "Nous construirons 15 000 nouvelles places de prison.",
+                     "description": "",
+                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                     "tenu": false,
+                     "source_tenu": "",
+                     "tags": ["prison"]
+                 }, {
+                     "anchor": "cyber-securite",
+                     "title": "Nous confirmerons la cyberdéfense et la cybersécurité comme priorités",
+                     "description": "de notre sécurité nationale.",
+                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                     "tenu": false,
+                     "source_tenu": "",
+                     "tags": ["cyberdéfense", "cybersécurité"]
+                 }, {
+                     "anchor": "moyens-armee",
+                     "title": "Nous augmenterons les moyens de nos armées.",
+                     "description": "Nous mobiliserons 2% du PIB qui serviront à renouveler les avions ravitailleurs, à moderniser les blindés de l’armée de terre, ainsi que la flotte de surface de notre marine nationale.",
+                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                     "tenu": false,
+                     "source_tenu": "",
+                     "tags": ["armée"]
+                 }, {
+                     "anchor": "securite-interieure",
+                     "title": "Nous créerons un état-major permanent des opérations de sécurité intérieure, de renseignement et de lutte contre le terrorisme.",
+                     "description": "Directement rattaché au président de la République, il associera les services et états-majors des ministères de l’Intérieur et de la Défense, avec la participation des ministères des transports, de la santé et de l’industrie.",
+                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                     "tenu": false,
+                     "source_tenu": "",
+                     "tags": ["sécurité intérieure", "terrorisme", "renseignement"]
+                 }, {
+                     "anchor": "frontieres-europeenes",
+                     "title": "Nous agirons avec nos partenaires européens pour créer une force de 5000 garde-frontières européens.",
+                     "description": "Ils seront chargés de surveiller et protéger les frontières extérieures de l’Union européenne.",
+                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                     "tenu": false,
+                     "source_tenu": "",
+                     "tags": ["frontières", "union européenne"]
+                 }
+             ]
+         },
+         {
+             "anchor": "education",
+             "titre": "Education",
+             "mesures": [{
+                 "anchor": "ecole-primaire",
+                 "title": "Nous donnerons la priorité à l’école primaire",
+                 "description": "pour que tous les élèves sachent lire, écrire et compter en arrivant en 6 e .",
                  "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                  "tenu": false,
                  "source_tenu": "",
-                 "tags": ["recrutement", "policiers", "gendarmes", "terrorisme"]
+                 "tags": ["école primaire"]
              }]
+         },
+         {
+             "anchor": "telephone-ecole",
+             "title": "Nous interdirons l’usage des téléphones portables dans l’enceinte des écoles primaires et des collèges.",
+             "description": "",
+             "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+             "tenu": false,
+             "source_tenu": "",
+             "tags": ["téléphone portable", "école primaire", "collège"]
+         }, {
+             "anchor": "autonomie-enseignants",
+             "title": "Nous donnerons plus d’autonomie aux équipes éducatives.",
+             "description": "Elles seront suivies et évaluées. La formation des enseignants sera adaptée à ce nouveau cadre.",
+             "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+             "tenu": false,
+             "source_tenu": "",
+             "tags": ["enseignants"]
+         },
+         {
+             "anchor": "taille-classes-zep",
+             "title": "Nous limiterons à 12 élèves par enseignant la taille des 12 000 classes de CP et de CE1 en zone prioritaire.",
+             "description": "Ces enseignants recevront une prime annuelle de 3000 euros nets. Et ils seront plus expérimentés : d’ici 2022, ceux affectés en zones prioritaires auront au moins 3 ans d’ancienneté.",
+             "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+             "tenu": false,
+             "source_tenu": "",
+             "tags": ["ZEP", "taille des classe", "enseignants", "prime"]
+         },
+         {
+             "anchor": "parcours-bi-langues-college",
+             "title": "Nous rendrons possible le rétablissement de parcours bi-langues au collège,",
+             "description": "de parcours européens et d’un véritable enseignement du grec et du latin.",
+             "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+             "tenu": false,
+             "source_tenu": "",
+             "tags": []
+         }, {
+             "anchor": "etudes-dirigees-benevoles",
+             "title": "Nous proposerons à tous un accompagnement après la classe.",
+             "description": "Au collège, nous rétablirons les études dirigées après la classe grâce à des bénévoles (étudiants et retraités).",
+             "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+             "tenu": false,
+             "source_tenu": "",
+             "tags": ["études dirigées", "bénévoles"]
+         }, {
+             "anchor": "baccalaureat",
+             "title": "Nous moderniserons le baccalauréat.",
+             "description": "Il y aura désormais 4 matières obligatoires à l’examen final. Les autres seront validées par un contrôle continu.",
+             "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+             "tenu": false,
+             "source_tenu": "",
+             "tags": ["baccalauréat", "contrôle continu"]
          }
      ]
  };
