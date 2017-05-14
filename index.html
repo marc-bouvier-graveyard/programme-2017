@@ -8,6 +8,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <script src=" data_2017.js"></script>
+    <style>
+        .badge.selected {
+            background-color: darkgreen !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -99,7 +104,8 @@
         function initAllTags(data) {
             $("#tags").children().remove();
             $.each(getAllTags(data_2017), function() {
-                $("#tags").append("<span class='badge' onclick='toggleFilterTag(this); init(filter(data_2017, tagFilter))'>" + this + "</span>");
+                var selected = tagFilter.isFiltered(this.toString()) ? " selected" : "";
+                $("#tags").append("<span class='badge" + selected + "' onclick='toggleFilterTag(this); init(filter(data_2017, tagFilter))'>" + this + "</span>");
             })
         }
 
@@ -123,11 +129,14 @@
                 return found;
             },
             toggleFilterData: function(data) {
-                if ($.inArray(data, this.filterData) >= 0) {
+                if (this.isFiltered(data)) {
                     this.filterData = this.filterData.filter((e) => e !== data);
                 } else {
                     this.filterData.push(data);
                 }
+            },
+            isFiltered: function(tag) {
+                return $.inArray(tag, this.filterData) >= 0;
             },
             filterData: []
         };
