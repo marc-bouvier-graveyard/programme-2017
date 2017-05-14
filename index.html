@@ -24,14 +24,21 @@
             $.each(data_2017.data, function() {
                 $.each(this.mesures, function() {
                     $.each(this.tags, function() {
-                        if ($.inArray(this, tags) == -1) {
-                            tags.push(this);
+                        if ($.inArray(this.toString(), tags) == -1) {
+                            tags.push(this.toString());
                         }
                     })
 
                 })
-            })
+            });
+            //suppression des doublons
+            //tags = deDuplicate(tags);
+            tags.sort();
             return tags;
+        }
+
+        function deDuplicate(array) {
+            return Array.from(new Set(array));
         }
 
         function toggleFilterTag(tagElement) {
