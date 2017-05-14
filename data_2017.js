@@ -385,65 +385,106 @@
              "anchor": "education",
              "titre": "Education",
              "mesures": [{
-                 "anchor": "ecole-primaire",
-                 "title": "Nous donnerons la priorité à l’école primaire",
-                 "description": "pour que tous les élèves sachent lire, écrire et compter en arrivant en 6 e .",
-                 "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
-                 "tenu": false,
-                 "source_tenu": "",
-                 "tags": ["école primaire"]
-             }]
+                     "anchor": "ecole-primaire",
+                     "title": "Nous donnerons la priorité à l’école primaire",
+                     "description": "pour que tous les élèves sachent lire, écrire et compter en arrivant en 6 e .",
+                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                     "tenu": false,
+                     "source_tenu": "",
+                     "tags": ["école primaire"]
+                 }, {
+                     "anchor": "telephone-ecole",
+                     "title": "Nous interdirons l’usage des téléphones portables dans l’enceinte des écoles primaires et des collèges.",
+                     "description": "",
+                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                     "tenu": false,
+                     "source_tenu": "",
+                     "tags": ["téléphone portable", "école primaire", "collège"]
+                 }, {
+                     "anchor": "autonomie-enseignants",
+                     "title": "Nous donnerons plus d’autonomie aux équipes éducatives.",
+                     "description": "Elles seront suivies et évaluées. La formation des enseignants sera adaptée à ce nouveau cadre.",
+                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                     "tenu": false,
+                     "source_tenu": "",
+                     "tags": ["enseignants"]
+                 },
+                 {
+                     "anchor": "taille-classes-zep",
+                     "title": "Nous limiterons à 12 élèves par enseignant la taille des 12 000 classes de CP et de CE1 en zone prioritaire.",
+                     "description": "Ces enseignants recevront une prime annuelle de 3000 euros nets. Et ils seront plus expérimentés : d’ici 2022, ceux affectés en zones prioritaires auront au moins 3 ans d’ancienneté.",
+                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                     "tenu": false,
+                     "source_tenu": "",
+                     "tags": ["ZEP", "taille des classe", "enseignants", "prime"]
+                 },
+                 {
+                     "anchor": "parcours-bi-langues-college",
+                     "title": "Nous rendrons possible le rétablissement de parcours bi-langues au collège,",
+                     "description": "de parcours européens et d’un véritable enseignement du grec et du latin.",
+                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                     "tenu": false,
+                     "source_tenu": "",
+                     "tags": []
+                 }, {
+                     "anchor": "etudes-dirigees-benevoles",
+                     "title": "Nous proposerons à tous un accompagnement après la classe.",
+                     "description": "Au collège, nous rétablirons les études dirigées après la classe grâce à des bénévoles (étudiants et retraités).",
+                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                     "tenu": false,
+                     "source_tenu": "",
+                     "tags": ["études dirigées", "bénévoles"]
+                 }, {
+                     "anchor": "baccalaureat",
+                     "title": "Nous moderniserons le baccalauréat.",
+                     "description": "Il y aura désormais 4 matières obligatoires à l’examen final. Les autres seront validées par un contrôle continu.",
+                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                     "tenu": false,
+                     "source_tenu": "",
+                     "tags": ["baccalauréat", "contrôle continu"]
+                 }, {
+                     "anchor": "autonomie-universités",
+                     "title": "Nous renforcerons l’autonomie des universités.",
+                     "description": "Elles pourront recruter leurs enseignants et définir leurs formations. Nous ouvrirons 80 000 places dans les filières professionnalisantes.",
+                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                     "tenu": false,
+                     "source_tenu": "",
+                     "tags": ["autonimie des universités"]
+                 }, {
+                     "anchor": "transparence-lycees-pro",
+                     "title": "Nous demanderons à chaque lycée professionnel et université de publier ses résultats",
+                     "description": "(débouchés, salaires, etc.) sur les 3 dernières années.",
+                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                     "tenu": false,
+                     "source_tenu": "",
+                     "tags": ["transparence", "lycées professionnels"]
+                 }, {
+                     "anchor": "logements-jeunes",
+                     "title": "Nous construirons 80 000 logements pour les jeunes.",
+                     "description": "",
+                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                     "tenu": false,
+                     "source_tenu": "",
+                     "tags": ["logements", "jeunes"]
+                 }, {
+                     "anchor": "ouverture-bibliotheques-weekends",
+                     "title": "Nous ouvrirons les bibliothèques en soirée et le week-end",
+                     "description": "",
+                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                     "tenu": false,
+                     "source_tenu": "",
+                     "tags": ["culture", "bibliothèques"]
+                 }, {
+                     "anchor": "pass-culture",
+                     "title": "Nous créerons un 'Pass Culture''.",
+                     "description": "Il permettra à chaque Français de 18 ans d’effectuer 500 euros de dépenses culturelles (cinéma, théâtre, livres...). Nous ne retirerons pas un euro au budget du ministère de la Culture.",
+                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                     "tenu": false,
+                     "source_tenu": "",
+                     "tags": ["culture"]
+                 }
+             ]
          },
-         {
-             "anchor": "telephone-ecole",
-             "title": "Nous interdirons l’usage des téléphones portables dans l’enceinte des écoles primaires et des collèges.",
-             "description": "",
-             "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
-             "tenu": false,
-             "source_tenu": "",
-             "tags": ["téléphone portable", "école primaire", "collège"]
-         }, {
-             "anchor": "autonomie-enseignants",
-             "title": "Nous donnerons plus d’autonomie aux équipes éducatives.",
-             "description": "Elles seront suivies et évaluées. La formation des enseignants sera adaptée à ce nouveau cadre.",
-             "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
-             "tenu": false,
-             "source_tenu": "",
-             "tags": ["enseignants"]
-         },
-         {
-             "anchor": "taille-classes-zep",
-             "title": "Nous limiterons à 12 élèves par enseignant la taille des 12 000 classes de CP et de CE1 en zone prioritaire.",
-             "description": "Ces enseignants recevront une prime annuelle de 3000 euros nets. Et ils seront plus expérimentés : d’ici 2022, ceux affectés en zones prioritaires auront au moins 3 ans d’ancienneté.",
-             "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
-             "tenu": false,
-             "source_tenu": "",
-             "tags": ["ZEP", "taille des classe", "enseignants", "prime"]
-         },
-         {
-             "anchor": "parcours-bi-langues-college",
-             "title": "Nous rendrons possible le rétablissement de parcours bi-langues au collège,",
-             "description": "de parcours européens et d’un véritable enseignement du grec et du latin.",
-             "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
-             "tenu": false,
-             "source_tenu": "",
-             "tags": []
-         }, {
-             "anchor": "etudes-dirigees-benevoles",
-             "title": "Nous proposerons à tous un accompagnement après la classe.",
-             "description": "Au collège, nous rétablirons les études dirigées après la classe grâce à des bénévoles (étudiants et retraités).",
-             "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
-             "tenu": false,
-             "source_tenu": "",
-             "tags": ["études dirigées", "bénévoles"]
-         }, {
-             "anchor": "baccalaureat",
-             "title": "Nous moderniserons le baccalauréat.",
-             "description": "Il y aura désormais 4 matières obligatoires à l’examen final. Les autres seront validées par un contrôle continu.",
-             "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
-             "tenu": false,
-             "source_tenu": "",
-             "tags": ["baccalauréat", "contrôle continu"]
-         }
+
      ]
  };
