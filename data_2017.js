@@ -533,14 +533,22 @@ var data_2017 = {
                     "source_tenu": "",
                     "tags": ["asile", "réfugiés", "immigrés"]
                 }, {
-                    "anchor": "",
-                    "title": "",
-                    "description": "",
+                    "anchor": "emploi-quartiers-prioritaires",
+                    "title": "Nous créerons des emplois francs pour encourager l’embauche des habitants des quartiers prioritaires de la politique de la ville",
+                    "description": "Quel que soit le lieu où elle se situe, une entreprise qui recrutera en CDI un habitant de l’un de ces quartiers bénéficiera d’une prime de 15 000 euros sur 3 ans : c’est comme si elle ne payait plus de charges !",
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
-                    "tags": []
-                }
+                    "tags": ["emploi","quartiers"]
+                },{
+                  "anchor": "lutte-discrimination",
+                  "title": "Nous ferons de la lutte contre la discrimination une priorité nationale.",
+                  "description": "Nous développerons des opérations de contrôle aléatoires et imprévues à grande échelle, en matière d’accès à l’emploi ou au logement. Les partenaires sociaux seront également mobilisés.",
+                  "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                  "tenu": false,
+                  "source_tenu": "",
+                  "tags" : ["discrimination","contrôles de police","emploi","logement"]}
+                
             ]
         }
     ]
