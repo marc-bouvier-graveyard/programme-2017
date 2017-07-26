@@ -708,15 +708,64 @@ var data_2017 = {
             "anchor": "solidarite",
             "titre": "Solidarité",
             "mesures": [{
-                "anchor": "",
-                "title": "",
-                "description": "",
-                "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
-                "tenu": false,
-                "source_tenu": "",
-                "remarques": "",
-                "tags": []
-            }]
+                    "anchor": "minimum-vieillesse",
+                    "title": "Nous augmenterons le minimum vieillesse de 100 euros par mois. ",
+                    "description": "",
+                    "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                    "tenu": false,
+                    "source_tenu": "",
+                    "remarques": "Mais il y aura une augmentation de la CSG...",
+                    "tags": ["seniors", "minima sociaux", "social"]
+                },
+                {
+                    "anchor": "versement-social-unique",
+                    "title": "Nous créerons un versement social unique.",
+                    "description": "Toutes les allocations sociales (APL, RSA...) seront versées le même jour du mois, un trimestre maximum après la constatation des revenus (contre jusqu’à 2 ans aujourd’hui).",
+                    "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                    "tenu": false,
+                    "source_tenu": "",
+                    "remarques": "",
+                    "tags": ["allocations", "social"]
+                },
+                {
+                    "anchor": "accelerateurs-associations",
+                    "title": "Nous créerons un « accélérateur » d’associations.",
+                    "description": "Elles font un travail formidable, mais il est difficile pour elles de toucher tous leurs publics. Cette nouvelle structure sera chargée de déployer sur l’ensemble du territoire et en moins de 5 ans les associations les plus utiles à notre société.",
+                    "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                    "tenu": false,
+                    "source_tenu": "",
+                    "remarques": "",
+                    "tags": ["association"]
+                }, {
+                    "anchor": "remboursements-lunettes-protheses",
+                    "title": "Nous mettrons en place la prise en charge à 100% des lunettes et des prothèses auditives et dentaires d’ici 2022, ",
+                    "description": "en lien avec les mutuelles et l’ensemble des professionnels de santé.",
+                    "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                    "tenu": false,
+                    "source_tenu": "",
+                    "remarques": "",
+                    "tags": ["sécurité sociale", "remboursements", "santé"]
+                }, {
+                    "anchor": "plan-investissement-sante",
+                    "title": "Nous consacrerons 5 milliards d’euros de notre Plan d’investissement à la santé,",
+                    "description": "notamment à la transformation de notre médecine de ville et de nos hôpitaux.",
+                    "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                    "tenu": false,
+                    "source_tenu": "",
+                    "remarques": "",
+                    "tags": ["santé", "budget"]
+                },
+                {
+                    "anchor": "service-sanitaire",
+                    "title": "Nous créerons un service sanitaire.",
+                    "description": "40 000 étudiants en santé consacreront 3 mois à des actions de prévention dans les écoles et les entreprises",
+                    "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                    "tenu": false,
+                    "source_tenu": "",
+                    "remarques": "",
+                    "tags": ["santé", "médecine", "formation"]
+                }
+            ]
         }
     ]
 };
