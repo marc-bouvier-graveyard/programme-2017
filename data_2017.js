@@ -485,6 +485,63 @@ var data_2017 = {
                 }
             ]
         },
-
+        {
+            "anchor": "lien-social",
+            "titre": "Fiers d’être Français : exigence et bienveillance",
+            "mesures": [{
+                    "anchor": "laicite",
+                    "title": "Nous appliquerons strictement le principe de laïcité",
+                    "description": "Nous organiserons pour les ministres du culte une formation universitaire à la laïcité, aux valeurs de la République et à la langue française. Nous développerons la connaissance des différentes religions à l’école en prévoyant un enseignement spécifique sur le fait religieux.",
+                    "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                    "tenu": false,
+                    "source_tenu": "",
+                    "tags": ["laicite", "formation", "enseignement", "religion"]
+                },
+                {
+                    "anchor": "voile",
+                    "title": "Nous n’étendrons pas l’interdiction du voile à l’université",
+                    "description": "",
+                    "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                    "tenu": false,
+                    "source_tenu": "",
+                    "tags": ["voile", "religion", "enseignement"]
+                },
+                {
+                    "anchor": "lieux-culte-terrorisme",
+                    "title": "Nous démantèlerons les associations qui, sous couvert de religion, s’attaquent à la République",
+                    "description": "Nous fermerons définitivement les lieux de culte dans lesquels certaines prêchent l’apologie du terrorisme.",
+                    "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                    "tenu": false,
+                    "source_tenu": "",
+                    "tags": ["terrorisme", "religion", "culte"]
+                },
+                {
+                    "anchor": "langue-francaise-integration",
+                    "title": "Nous ferons de la maîtrise de la langue française le principal critère de l’obtention de la nationalité française",
+                    "description": "Nous renforcerons l’apprentissage de notre langue pour les candidats à la naturalisation. Quelle meilleure preuve de la volonté de quelqu’un de s’intégrer et de devenir français ?",
+                    "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                    "tenu": false,
+                    "source_tenu": "",
+                    "tags": ["naturalisation", "langue", "intégration"]
+                },
+                {
+                    "anchor": "demandes-asile",
+                    "title": "Nous examinerons les demandes d’asile en moins de 6 mois, recours compris",
+                    "description": "C’est nécessaire pour accueillir dignement les réfugiés qui ont droit à la protection de la France. Les autres seront reconduits sans délai vers leur pays afin qu’ils ne deviennent pas des immigrés clandestins.",
+                    "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                    "tenu": false,
+                    "source_tenu": "",
+                    "tags": ["asile", "réfugiés", "immigrés"]
+                }, {
+                    "anchor": "",
+                    "title": "",
+                    "description": "",
+                    "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                    "tenu": false,
+                    "source_tenu": "",
+                    "tags": []
+                }
+            ]
+        }
     ]
 };
