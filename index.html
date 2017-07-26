@@ -21,8 +21,6 @@
 <body>
     <!-- templates -->
     <script id="template-mesure" type="text/x-jsrender">
-        {{for data}}
-        <h2 id="{{:anchor}}">{{:titre}}</h2>
         <table class="table table-stripped">
             <thead>
                 <tr>
@@ -33,19 +31,24 @@
                 </tr>
             </thead>
             <tbody>
+                {{for data}}
+                <tr id="{{:anchor}}">
+                    <th colspan="4">
+                        <h2>{{:titre}}</h2>
+                    </th>
+                </tr>
                 {{for mesures}}
                 <tr id="{{:anchor}}">
                     <td>{{:title}}</td>
                     <td>{{:description}}</td>
                     <td>{{if tenu}}✔{{else}}✗{{/if}}</td>
                     <td><a href="{{:source_tenu}}">{{:source_tenu}}</a></td>
+                    <td>{{:remarques}}</td>
                     <td>{{for tags itemVar="~tag"}}<span class="badge">{{:~tag}}</span>{{/for}}</td>
                 </tr>
-                {{/for}}
-
+                {{/for}} {{/for}}
             </tbody>
         </table>
-        {{/for}}
     </script>
     <!-- fin templates -->
 

@@ -1,5 +1,5 @@
 var data_2017 = {
-    "table": ["Mesure", "Description", "Tenu", "Source tenu", "Tags"],
+    "table": ["Mesure", "Description", "Tenu", "Source tenu", "remarques", "tags"],
     "data": [{
             "anchor": "travail",
             "titre": "Travail",
@@ -10,6 +10,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "Avec la baisse des cotisations, il faut trouver de l'agent pour financer l'assurance chômage. La CSG sera augmentée pour cela. Les retraités contribueront à ce financement. Le gouvernement veut également faire des économies en réduisant le budget de l'armée et en baissant les aides pour le logement (APL) de 5€ par mois. C'est 6,5 millions de personnes qui sont concernés par cette baisse, soit une économie de 390 000 000 euros. D'un autre côté le gouvernement veut réformer l'ISF, ainsi, seuls les biens immobiliers seront concernés par l'ISF (les actions en bourse ne le seront plus par exemple). Ce cadeau fiscal représente 2 milliards selon En Marche.",
                     "tags": ["pouvoir d'achat", "cotisations sociales", "indépendants", "fonctionnaires", "salaire"]
                 },
                 {
@@ -19,6 +20,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["pouvoir d'achat", "smic", "prime d'activité", "salaire"]
                 },
                 {
@@ -28,6 +30,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["35H", "heures supplémentaires", "cotisations sociales"]
                 },
                 {
@@ -37,6 +40,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["chômage", "démission", "salarié"]
                 },
                 {
@@ -46,6 +50,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["formation", "jeunes"]
                 },
                 {
@@ -55,6 +60,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["agriculteurs", "aides publiques", "subventions"]
                 },
                 {
@@ -64,6 +70,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["apprentissage", "alternance", "formation"]
                 }
             ]
@@ -78,6 +85,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["RSI", "indépendants", "couverture sociale"]
                 },
                 {
@@ -87,6 +95,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": []
                 },
                 {
@@ -96,6 +105,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": []
                 },
                 {
@@ -105,6 +115,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": []
                 },
                 {
@@ -114,6 +125,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": []
                 },
                 {
@@ -123,6 +135,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": []
                 }
             ]
@@ -137,6 +150,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": []
                 },
                 {
@@ -146,6 +160,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": []
                 },
                 {
@@ -155,6 +170,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": []
                 },
                 {
@@ -164,6 +180,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": []
                 },
                 {
@@ -173,6 +190,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": []
                 },
                 {
@@ -182,6 +200,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["recherche", "transition écologique"]
                 },
                 {
@@ -191,6 +210,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["bio", "circuits courts", "restauration scolaire", "écologie"]
                 },
                 {
@@ -200,6 +220,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["véhicule", "pollution", "diesel", "prime de reprise"]
                 },
                 {
@@ -209,6 +230,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": []
                 }
 
@@ -224,6 +246,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["retraite", "calcul des pensions"]
                 },
                 {
@@ -233,6 +256,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["retraite", "age de départ", "niveau des pensions"]
                 },
                 {
@@ -242,6 +266,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["audit", "égalité salariale", "femmes"]
                 },
                 {
@@ -251,6 +276,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["fraude fiscale"]
                 },
                 {
@@ -260,6 +286,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["fraude aux prestations sociales"]
                 },
                 {
@@ -269,6 +296,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["fraude fiscale", "grands groupes de l'internet", "optimisation fiscale"]
                 },
                 {
@@ -278,6 +306,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["transparence", "attribution des logements sociaux"]
                 },
                 {
@@ -287,6 +316,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["durée de séjour du travailleur détaché", "règle du détachement", "concurrence déloyale"]
                 }
             ]
@@ -301,6 +331,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["recrutement", "policiers", "gendarmes", "terrorisme"]
                 },
                 {
@@ -310,6 +341,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["police", "proximité"]
                 },
                 {
@@ -319,6 +351,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["policiers", "gendarmes", ""]
                 },
                 {
@@ -328,6 +361,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["harcèlement", "incivilités"]
                 }, {
                     "anchor": "execution-peines",
@@ -336,6 +370,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["exécution des peines"]
                 },
                 {
@@ -345,6 +380,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["prison"]
                 }, {
                     "anchor": "cyber-securite",
@@ -353,6 +389,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["cyberdéfense", "cybersécurité"]
                 }, {
                     "anchor": "moyens-armee",
@@ -361,6 +398,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["armée"]
                 }, {
                     "anchor": "securite-interieure",
@@ -369,6 +407,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["sécurité intérieure", "terrorisme", "renseignement"]
                 }, {
                     "anchor": "frontieres-europeenes",
@@ -377,6 +416,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["frontières", "union européenne"]
                 }
             ]
@@ -391,7 +431,8 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
-                    "tags": ["école primaire"]
+                    "remarques": "",
+                    "tags": ["éducation nationale"]
                 }, {
                     "anchor": "telephone-ecole",
                     "title": "Nous interdirons l’usage des téléphones portables dans l’enceinte des écoles primaires et des collèges.",
@@ -399,7 +440,8 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
-                    "tags": ["téléphone portable", "école primaire", "collège"]
+                    "remarques": "",
+                    "tags": ["éducation nationale"]
                 }, {
                     "anchor": "autonomie-enseignants",
                     "title": "Nous donnerons plus d’autonomie aux équipes éducatives.",
@@ -407,7 +449,8 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
-                    "tags": ["enseignants"]
+                    "remarques": "",
+                    "tags": ["éducation nationale"]
                 },
                 {
                     "anchor": "taille-classes-zep",
@@ -416,6 +459,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["ZEP", "taille des classe", "enseignants", "prime"]
                 },
                 {
@@ -425,6 +469,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": []
                 }, {
                     "anchor": "etudes-dirigees-benevoles",
@@ -433,6 +478,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["études dirigées", "bénévoles"]
                 }, {
                     "anchor": "baccalaureat",
@@ -441,6 +487,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["baccalauréat", "contrôle continu"]
                 }, {
                     "anchor": "autonomie-universités",
@@ -449,6 +496,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["autonimie des universités"]
                 }, {
                     "anchor": "transparence-lycees-pro",
@@ -457,6 +505,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["transparence", "lycées professionnels"]
                 }, {
                     "anchor": "logements-jeunes",
@@ -465,6 +514,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["logements", "jeunes"]
                 }, {
                     "anchor": "ouverture-bibliotheques-weekends",
@@ -473,6 +523,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["culture", "bibliothèques"]
                 }, {
                     "anchor": "pass-culture",
@@ -481,6 +532,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["culture"]
                 }
             ]
@@ -495,6 +547,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["laicite", "formation", "enseignement", "religion"]
                 },
                 {
@@ -504,6 +557,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["voile", "religion", "enseignement"]
                 },
                 {
@@ -513,6 +567,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["terrorisme", "religion", "culte"]
                 },
                 {
@@ -522,6 +577,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["naturalisation", "langue", "intégration"]
                 },
                 {
@@ -531,6 +587,7 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
+                    "remarques": "",
                     "tags": ["asile", "réfugiés", "immigrés"]
                 }, {
                     "anchor": "emploi-quartiers-prioritaires",
@@ -539,17 +596,127 @@ var data_2017 = {
                     "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
                     "tenu": false,
                     "source_tenu": "",
-                    "tags": ["emploi","quartiers"]
-                },{
-                  "anchor": "lutte-discrimination",
-                  "title": "Nous ferons de la lutte contre la discrimination une priorité nationale.",
-                  "description": "Nous développerons des opérations de contrôle aléatoires et imprévues à grande échelle, en matière d’accès à l’emploi ou au logement. Les partenaires sociaux seront également mobilisés.",
-                  "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
-                  "tenu": false,
-                  "source_tenu": "",
-                  "tags" : ["discrimination","contrôles de police","emploi","logement"]}
-                
+                    "remarques": "",
+                    "tags": ["emploi", "quartiers"]
+                }, {
+                    "anchor": "lutte-discrimination",
+                    "title": "Nous ferons de la lutte contre la discrimination une priorité nationale.",
+                    "description": "Nous développerons des opérations de contrôle aléatoires et imprévues à grande échelle, en matière d’accès à l’emploi ou au logement. Les partenaires sociaux seront également mobilisés.",
+                    "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                    "tenu": false,
+                    "source_tenu": "",
+                    "remarques": "",
+                    "tags": ["discrimination", "contrôles de police", "emploi", "logement"]
+                }, {
+                    "anchor": "europe-emploi-economie",
+                    "title": "Nous construirons une Europe qui développe nos emplois et notre économie.",
+                    "description": "Pour pouvoir investir beaucoup plus qu’aujourd’hui, nous voulons un budget de la zone euro voté par un Parlement de la zone euro et exécuté par un ministre de l’Économie et des Finances de la zone euro.",
+                    "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                    "tenu": false,
+                    "source_tenu": "",
+                    "remarques": "",
+                    "tags": ["europe", "emploi", "économie", "budget"]
+                },
+                {
+                    "anchor": "lutte-arrangements-fiscaux",
+                    "title": "Nous lutterons contre les arrangements fiscaux entre États et entreprises multinationales.",
+                    "description": "Ils faussent la concurrence en Europe, comme celui entre Apple et l’Irlande qui a été sanctionné. La France se montrera exemplaire en ce domaine.",
+                    "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                    "tenu": false,
+                    "source_tenu": "",
+                    "remarques": "",
+                    "tags": ["fiscalité", "multinationales", "concurrence", "europe"]
+                },
+                {
+                    "anchor": "marches-publics-europeens",
+                    "title": "Nous réserverons l’accès aux marchés publics européens aux entreprises",
+                    "description": "qui localisent au moins la moitié de leur production en Europe dans le cadre d’un Buy European Act.",
+                    "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                    "tenu": false,
+                    "source_tenu": "",
+                    "remarques": "",
+                    "tags": ["europe", "économie", "délocalisation", "entreprise"]
+                }, {
+                    "anchor": "erasmus-apprentis",
+                    "title": "Nous généraliserons Erasmus et l’étendrons aux apprentis.",
+                    "description": "200 000 étudiants et apprentis français partiront chaque année dans un pays de l’Union européenne.",
+                    "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                    "tenu": false,
+                    "source_tenu": "",
+                    "remarques": "",
+                    "tags": ["éducation nationale", "formation", "europe", "apprentissage"]
+                }, {
+                    "anchor": "europe-defense",
+                    "title": "Nous construirons une Europe qui nous protège.",
+                    "description": "Nous proposerons avec l’Allemagne une Europe de la défense associant les pays volontaires, en créant un Fonds européen de défense qui financera des équipements militaires communs (comme les drones européens) et un Quartier Général européen permanent.",
+                    "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                    "tenu": false,
+                    "source_tenu": "",
+                    "remarques": "",
+                    "tags": ["europe", "défense", "armée", "budget"]
+                }, {
+                    "anchor": "europe-protectionnisme",
+                    "title": "Nous construirons une Europe qui protège nos industries stratégiques",
+                    "description": "Nous voulons un mécanisme de contrôle des investissements étrangers en Europe afin de préserver nos secteurs stratégiques.",
+                    "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                    "tenu": false,
+                    "source_tenu": "",
+                    "remarques": "",
+                    "tags": ["europe", "économie", "protectionnisme"]
+                }, {
+                    "anchor": "brexit-marche-unique",
+                    "title": "Dans la discussion du Brexit, nous défendrons l’intégrité du marché unique européen.",
+                    "description": "Toutes les entreprises qui y accèdent doivent être soumises aux mêmes disciplines.",
+                    "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                    "tenu": false,
+                    "source_tenu": "",
+                    "remarques": "",
+                    "tags": ["europe", "économie", "brexit", "marché unique"]
+                },
+                {
+                    "anchor": "europe-marche-unique-numerique",
+                    "title": "Nous créerons un marché unique du numérique en Europe.",
+                    "description": "Un fonds de capital-risque permettra de financer le développementdes start-ups européennes.",
+                    "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                    "tenu": false,
+                    "source_tenu": "",
+                    "remarques": "",
+                    "tags": ["europe", "économie", "numérique", "start-up"]
+                },
+                {
+                    "anchor": "europe-taxe-carbone",
+                    "title": "Nous créerons un marché unique de l’énergie en Europe.",
+                    "description": "Nous fixerons un prix plancher du carbone dans les pays de l’Union.",
+                    "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                    "tenu": false,
+                    "source_tenu": "",
+                    "remarques": "",
+                    "tags": ["europe", "énergie", "taxe carbone"]
+                }, {
+                    "anchor": "europe-conventions-citoyennes",
+                    "title": "Nous donnerons la parole au peuple.",
+                    "description": "Nous proposerons des conventions citoyennes dans toute l’Europe dès la fin de l’année 2017 pour redonner un sens au projet européen. Ces conventions aboutiront à un projet qui sera ensuite adopté par tous les pays qui le souhaitent. Aucun État membre n’aura le pouvoir de bloquer cette nouvelle étape.",
+                    "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                    "tenu": false,
+                    "source_tenu": "",
+                    "remarques": "",
+                    "tags": ["europe", "démocratie"]
+                }
+
             ]
+        }, {
+            "anchor": "solidarite",
+            "titre": "Solidarité",
+            "mesures": [{
+                "anchor": "",
+                "title": "",
+                "description": "",
+                "source": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf",
+                "tenu": false,
+                "source_tenu": "",
+                "remarques": "",
+                "tags": []
+            }]
         }
     ]
 };
