@@ -41,8 +41,11 @@
                 <tr id="{{:anchor}}">
                     <td>{{:title}}</td>
                     <td>{{:description}}</td>
+                    <td>{{for sources}} {{if #index > 0}}, {{/if}}<a href="{{:href}}">{{:label}}</a> {{/for}}
+                    </td>
                     <td>{{if tenu}}✔{{else}}✗{{/if}}</td>
-                    <td><a href="{{:source_tenu}}">{{:source_tenu}}</a></td>
+                    <td>{{for sources_tenu}} {{if #index > 0}}, {{/if}}<a href="{{:href}}">{{:label}}</a> {{/for}}
+                    </td>
                     <td>{{:remarques}}</td>
                     <td>{{for tags itemVar="~tag"}}<span class="badge">{{:~tag}}</span>{{/for}}</td>
                 </tr>
