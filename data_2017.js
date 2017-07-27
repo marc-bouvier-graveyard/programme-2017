@@ -63,7 +63,7 @@ var data_2017 = {
                     "tenu": false,
                     "sources_tenu": [],
                     "remarques": "",
-                    "tags": ["agriculteurs", "aides publiques", "subventions"]
+                    "tags": ["agriculture", "aides publiques", "subventions"]
                 },
                 {
                     "anchor": "apprentissage",
@@ -914,7 +914,94 @@ var data_2017 = {
                 "tenu": false,
                 "sources_tenu": [],
                 "remarques": "",
-                "tags": []
+                "tags": ["politique", "parlementaires", "transparence", "cumul des mandats", "conflits d'intérêt", ]
+            }, {
+                "anchor": "pluralisme-vie-politique",
+                "title": "Nous améliorerons le renouvellement et le pluralisme de notre vie politique.",
+                "description": "<ul><li>Nous demanderons aux parlementaires de mettre en place des dispositifs innovants d’évaluation du travail parlementaire et législatif (jurys citoyens, compte-rendus de mandat via les réseaux sociaux...).</li><li> Nous encouragerons les communes à développer les budgets participatifs, c’est-à-dire à consulter directement les citoyens sur l’utilisation de l’argent public.</li></ul>",
+                "sources": [{ "href": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf", "label": "Programme d'Emmanuel Macron en 2017" }],
+                "tenu": false,
+                "sources_tenu": [],
+                "remarques": "",
+                "tags": ["argent public", "consultation citoyenne", "politique"]
+            }, {
+                "anchor": "participation-politique-citoyenne",
+                "title": "Nous développerons la participation des citoyens.",
+                "description": "<ul><li>Nous demanderons aux parlementaires de mettre en place des dispositifs innovants d’évaluation du travail parlementaire et législatif (jurys citoyens, compte-rendus de mandat via les réseaux sociaux...). </li><li>Nous encouragerons les communes à développer les budgets participatifs, c’est-à-dire à consulter directement les citoyens sur l’utilisation de l’argent public.</li></ul>",
+                "sources": [{ "href": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf", "label": "Programme d'Emmanuel Macron en 2017" }],
+                "tenu": false,
+                "sources_tenu": [],
+                "remarques": "",
+                "tags": ["politique", "participation citoyenne", "évaluation du travail parlementaire", "budgets participatifs"]
+            }]
+        }, {
+            "anchor": "territoires-province",
+            "titre": "Province et France rurale",
+            "titre_original": "Les territoires qui font notre France",
+            "description_originale": "Beaucoup de nos territoires se sentent progressivement délaissés, voire abandonnés. <br/> À côté de la France des métropoles, où beaucoup réussissent, il y a des quartiers et des banlieues populaires où tout est plus dur et plus compliqué, même s’ils ne sont qu’à quelques kilomètres de distance. <br/> De nombreux Français se sont installés un peu plus loin, pour chercher un logement un peu moins cher ou un peu plus spacieux, mais ils doivent affronter des distances toujours plus grandes pour trouver un emploi, mettre leurs enfants à l’école, se faire soigner ou accéder à des loisirs de qualité. <br/>Il y a la France de la ruralité. Elle est dépositaire d’une part de notre identité. Et nous n’avons pas le droit de laisser mourir certains territoires comme beaucoup de nos paysans en ont parfois le sentiment. <br/>Il y a la France des Outre-mer. Grâce à elle, nous sommes présents à travers le monde. Mais trop souvent, nous ne la considérons pas à sa juste valeur. <br/>Nous sommes fiers de tous ces territoires. À égalité. Car tous ont des atouts pour réussir. Ensemble.",
+            "mesures": [{
+                "anchor": "exoneration-taxe-habitation",
+                "title": "Nous exonérerons de la taxe d’habitation tous les Français des classes moyennes et  populaires (soit 80% des ménages).",
+                "description": "C’est un impôt injuste : on paye souvent beaucoup plus quand on vit dans une commune populaire que dans une commune riche. Dès 2020, 4 Français sur 5 ne paieront plus la taxe d’ habitation, et l’État remboursera entièrement auprès des communes leur manque à gagner, à l’euro près, en préservant leur autonomie fiscale.",
+                "sources": [{ "href": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf", "label": "Programme d'Emmanuel Macron en 2017" }],
+                "tenu": false,
+                "sources_tenu": [],
+                "remarques": "Cela correspond à déplacer une taxe locale sur les impôts sur le revenu, donc plus de centralisation. ",
+                "tags": ["taxe", "logement"]
+            }, {
+                "anchor": "couverture-tres-haut-debit",
+                "title": "Nous couvrirons en très haut débit ou en fibre l’ensemble du territoire.",
+                "description": "Ce sera fait d’ici la fin du prochain quinquennat, pour ne laisser aucun territoire à la traîne de la transition numérique. Les opérateurs téléphoniques doubleront la couverture mobile en zone rurale pour réduire les zones sans réseau, et l’État prendra ses responsabilités partout où cela est nécessaire.",
+                "sources": [{ "href": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf", "label": "Programme d'Emmanuel Macron en 2017" }],
+                "tenu": false,
+                "sources_tenu": [],
+                "remarques": "",
+                "tags": ["numérique", "télécommunications", "numérique", "infrastructures"]
+            }, {
+                "anchor": "reduire-millefeuille-administratif",
+                "title": "Nous réduirons le millefeuille administratif.",
+                "description": "Nous supprimerons au moins un quart des départements, là où ils peuvent être rapprochés de l’une de nos grandes métropoles.",
+                "sources": [{ "href": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf", "label": "Programme d'Emmanuel Macron en 2017" }],
+                "tenu": false,
+                "sources_tenu": [],
+                "remarques": "",
+                "tags": ["administration", "département"]
+            }, {
+                "anchor": "construction-logements",
+                "title": "Nous accélérerons la construction de logements là où c’est nécessaire.",
+                "description": "Nous mettrons en place des procédures accélérées dans les zones où le logement coûte trop cher. Cela permettra de construire plus vite des logements et de faire baisser les prix de l’immobilier.",
+                "sources": [{ "href": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf", "label": "Programme d'Emmanuel Macron en 2017" }],
+                "tenu": false,
+                "sources_tenu": [],
+                "remarques": "",
+                "tags": ["logement", "immobilier"]
+            }, {
+                "anchor": "reseaux-transport",
+                "title": "Nous réformerons radicalement notre politique des transports.",
+                "description": "Car l’enjeu n’est plus de construire partout des autoroutes, des aéroports et des lignes de TGV. C’est, grâce à notre Plan d’investissement, de moderniser les réseaux existants et de développer de nouveaux services pour que tous les territoires soient raccordés efficacement aux lieux de travail, d’éducation, de culture ou de soins.",
+                "sources": [{ "href": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf", "label": "Programme d'Emmanuel Macron en 2017" }],
+                "tenu": false,
+                "sources_tenu": [],
+                "remarques": "",
+                "tags": ["transport", "infrastructures"]
+            }, {
+                "anchor": "transition-agricole",
+                "title": "Nous lancerons un Plan de Transition Agricole de 5 milliards d’euros.",
+                "description": "Il soutiendra tous les projets de montée en gamme des exploitations, d’adaptation aux normes environnementales et de bien-être animal.",
+                "sources": [{ "href": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf", "label": "Programme d'Emmanuel Macron en 2017" }],
+                "tenu": false,
+                "sources_tenu": [],
+                "remarques": "",
+                "tags": ["agriculture", "animaux"]
+            }, {
+                "anchor": "outre-mer",
+                "title": "Nous développerons la continuité territoriale au profit des Outre-mer.",
+                "description": "D’ici la fin du quinquennat, nous proposerons chaque année aux ultra-marins au moins 200 000 billets d’avion à prix aidé en particulier pour les étudiants et les entrepreneurs pour leur mobilité entre les Outre-mer et l’Hexagone, et dans leur environnement régional. Nous installerons en Outre-mer l’Agence Française pour la biodiversité. Nous permettrons aux collectivités d’Outre-mer de modifier la réglementation de droit commun pour l’adapter à leur situation particulière.",
+                "sources": [{ "href": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf", "label": "Programme d'Emmanuel Macron en 2017" }],
+                "tenu": false,
+                "sources_tenu": [],
+                "remarques": "",
+                "tags": ["outre-mer", "social", "transport"]
             }]
         }
     ]
