@@ -3,6 +3,8 @@ var data_2017 = {
     "data": [{
             "anchor": "travail",
             "titre": "Travail",
+            "titre_original": "Bien vivre de son travail et inventer de nouvelles protections",
+            "description_originale": "Nous ne sommes pas condamnés à choisir entre le chômage de masse et la précarisation du travail. <br/>Nous ne sommes pas naïfs. Nous savons bien que, dans la vie, on n’a rien sans rien et que tout progrès, personnel ou collectif, dépend de cet effort qu’on appelle le travail. Nous savons que le travail, lorsqu’il est pratiqué dans de bonnes conditions et correctement payé, est le moteur de la progression sociale. <br/> Nous savons aussi que le travail a toujours changé (les porteurs d’eau ou les conducteurs de calèche ont été remplacés par d’autres métiers), que de nouveaux besoins naissent du vieillissement de la population, de la transition écologique, de la transition numérique, et que de nouveaux métiers vont surgir. Dans ce monde nouveau, chacun doit trouver sa place. Et la France a toute la sienne, si elle sait tout à la fois libérer les initiatives et protéger les personnes.",
             "mesures": [{
                     "anchor": "pouvoir-achat",
                     "title": "Nous améliorerons le pouvoir d’achat de tous les travailleurs.",
@@ -78,6 +80,8 @@ var data_2017 = {
         {
             "anchor": "entreprise",
             "titre": "Entreprise",
+            "titre_original": "",
+            "description_originale": "",
             "mesures": [{
                     "anchor": "simplification-suppression-rsi",
                     "title": "Nous simplifierons la vie des entrepreneurs.",
@@ -143,6 +147,8 @@ var data_2017 = {
         {
             "anchor": "investissement-ecologie",
             "titre": "Investissement, écologie",
+            "titre_original": "",
+            "description_originale": "",
             "mesures": [{
                     "anchor": "plan-investissement-innovation",
                     "title": "Nous lancerons un grand Plan d’investissement de 50 milliards d’euros.",
@@ -239,6 +245,8 @@ var data_2017 = {
         {
             "anchor": "justice-sociale",
             "titre": "Justice sociale",
+            "titre_original": "",
+            "description_originale": "",
             "mesures": [{
                     "anchor": "retraite",
                     "title": "Nous mettrons fin aux injustices de notre système de retraites.",
@@ -324,6 +332,8 @@ var data_2017 = {
         {
             "anchor": "securite",
             "titre": "Sécurité",
+            "titre_original": "",
+            "description_originale": "",
             "mesures": [{
                     "anchor": "recrutement-policiers-gendarmes",
                     "title": "Nous recruterons 10 000 policiers et gendarmes supplémentaires.",
@@ -424,6 +434,8 @@ var data_2017 = {
         {
             "anchor": "education",
             "titre": "Education",
+            "titre_original": "",
+            "description_originale": "",
             "mesures": [{
                     "anchor": "ecole-primaire",
                     "title": "Nous donnerons la priorité à l’école primaire",
@@ -540,6 +552,8 @@ var data_2017 = {
         {
             "anchor": "lien-social",
             "titre": "Fiers d’être Français : exigence et bienveillance",
+            "titre_original": "",
+            "description_originale": "",
             "mesures": [{
                     "anchor": "laicite",
                     "title": "Nous appliquerons strictement le principe de laïcité",
@@ -691,7 +705,7 @@ var data_2017 = {
                     "tenu": false,
                     "sources_tenu": [],
                     "remarques": "",
-                    "tags": ["europe", "énergie", "taxe carbone"]
+                    "tags": ["europe", "énergie", "taxe"]
                 }, {
                     "anchor": "europe-conventions-citoyennes",
                     "title": "Nous donnerons la parole au peuple.",
@@ -707,6 +721,8 @@ var data_2017 = {
         }, {
             "anchor": "solidarite",
             "titre": "Solidarité",
+            "titre_original": "",
+            "description_originale": "",
             "mesures": [{
                     "anchor": "minimum-vieillesse",
                     "title": "Nous augmenterons le minimum vieillesse de 100 euros par mois. ",
@@ -805,8 +821,101 @@ var data_2017 = {
                     "sources_tenu": [],
                     "remarques": "",
                     "tags": ["handicap", "social"]
+                }, {
+                    "anchor": "paquet-cigarettes-10-euros",
+                    "title": "Le paquet de cigarettes à 10€",
+                    "description": "",
+                    "sources": [{ "href": "http://www.leparisien.fr/elections/presidentielle/candidats-et-programmes/presidentielle-dans-son-programme-macron-veut-un-paquet-de-cigarettes-a-dix-euros-03-03-2017-6729036.php", "label": "Le parisien 03/03/2017" }],
+                    "tenu": false,
+                    "sources_tenu": [],
+                    "remarques": "",
+                    "tags": ["santé", "taxe"]
                 }
             ]
+        }, {
+            "anchor": "simplification-administrative",
+            "titre": "Simplification administrative",
+            "titre_original": "Rendre la vie des Français plus facile",
+            "description_originale": "Des décennies d’accumulation de normes et de règlements ont rendu la vie de chacune et chacun plus compliquée au jour le jour. Que de temps perdu en démarches administratives, en renouvellement de papiers, ou à cause de la lenteur de nos procédures de justice! <br/>Pour les entrepreneurs, c’est la même chose. Certains passent plus de temps à lutter contre les contraintes administratives qu’à développer leur entreprise. Les élus locaux aussi se heurtent à des normes qui évoluent tout le temps et qui coûtent de plus en plus cher. <br/>La justification de cette énorme accumulation de règles et d’obligations ne peut pas être seulement qu’elles ont toujours été là... <br/>De nouveaux outils, par exemple numériques, existent déjà ou apparaissent chaque année pour rendre les choses plus faciles. <br/>C’est donc une révolution culturelle qu’il faut mener, notamment dans nos administrations.",
+            "mesures": [{
+                "anchor": "droit-erreur-pour-tous",
+                "title": "Nous créerons un droit à l’erreur pour tous.",
+                "description": "Le cœur de la mission de l’administration ne sera plus la sanction mais le conseil et l’accompagnement, sauf en matière pénale, ou lorsque la sécurité est engagée. Par exemple, aujourd’hui, un employeur qui oublie de déclarer à l’URSSAF la prime de Noël qu’il verse à ses salariés est condamné à une amende. Il pourra demain faire valoir son droit à l’erreur. Aujourd’hui, des grands-parents qui hébergent leur petite-fille parce qu’elle vient de trouver un emploi près de chez eux doivent la déclarer à la CAF sous peine de perdre une partie de leurs allocations logement et de payer des pénalités. Ils pourront demain faire valoir leur droit à l’erreur et ne plus payer de pénalités.",
+                "sources": [{ "href": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf", "label": "Programme d'Emmanuel Macron en 2017" }],
+                "tenu": false,
+                "sources_tenu": [],
+                "remarques": "",
+                "tags": ["administration", "simplification", "URSSAF", "CAF"]
+            }, {
+                "anchor": "numerisation-administration",
+                "title": "Nous passerons à la vitesse supérieure en ce qui concerne la numérisation de l’administration.",
+                "description": "Tous les renouvellements de documents officiels (carte d’identité, passeport, carte grise, etc.) devront pouvoir se faire en ligne, sans nécessité de se déplacer. Les horaires d’ouverture des services publics seront par ailleurs élargis aux soirées et au samedi pour s’adapter aux nouveaux modes de vie des Français.",
+                "sources": [{ "href": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf", "label": "Programme d'Emmanuel Macron en 2017" }],
+                "tenu": false,
+                "sources_tenu": [],
+                "remarques": "",
+                "tags": ["administration", "démarches administratives", "horaires d'ouverture", "numérisation"]
+            }, {
+                "anchor": "prefets-organisation-regions-departement",
+                "title": "Nous donnerons aux préfets la capacité d’adapter l’organisation des services de l’État aux  besoins de chaque région et département.",
+                "description": "",
+                "sources": [{ "href": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf", "label": "Programme d'Emmanuel Macron en 2017" }],
+                "tenu": false,
+                "sources_tenu": [],
+                "remarques": "",
+                "tags": ["préfet", "région", "département", "administration"]
+            }, {
+                "anchor": "normes-nationales-agricole-maritime-peche",
+                "title": "Nous ne rajouterons aucune norme nationale aux normes européennes dans les secteurs agricole, maritime et de la pêche.",
+                "description": "",
+                "sources": [{ "href": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf", "label": "Programme d'Emmanuel Macron en 2017" }],
+                "tenu": false,
+                "sources_tenu": [],
+                "remarques": "",
+                "tags": ["normes", "europe"]
+            }, {
+                "anchor": "affichage-qualite-service-publics",
+                "title": "Tous les services publics seront tenus d’afficher leurs résultats en termes de qualité de service",
+                "description": "Exemples de services publics accueillant du public (hôpital, école, tribunal, CAF, etc.).  Exemple de résultats en terme de qualité de service (ex : temps d’attente, taux de satisfaction, etc.) ",
+                "sources": [{ "href": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf", "label": "Programme d'Emmanuel Macron en 2017" }],
+                "tenu": false,
+                "sources_tenu": [],
+                "remarques": "",
+                "tags": ["service public", "administration", "qualité de service"]
+            }, {
+                "anchor": "tribunal-premiere-instance",
+                "title": "Nous établirons dans chaque département un tribunal de première instance qui sera le guichet unique permettant un accès facilité au juge.",
+                "description": "Nous ne fermerons aucun site.",
+                "sources": [{ "href": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf", "label": "Programme d'Emmanuel Macron en 2017" }],
+                "tenu": false,
+                "sources_tenu": [],
+                "remarques": "",
+                "tags": ["tribunaux", "justice", "administration"]
+            }, {
+                "anchor": "delais-jugement-reduits-petits-litiges",
+                "title": "Nous raccourcirons les délais de jugement pour les litiges inférieurs à 4000 euros.",
+                "description": "La procédure les concernant sera entièrement dématérialisée et la décision sera rendue en ligne.",
+                "sources": [{ "href": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf", "label": "Programme d'Emmanuel Macron en 2017" }],
+                "tenu": false,
+                "sources_tenu": [],
+                "remarques": "",
+                "tags": ["justice", "tribunaux", "numérique"]
+            }]
+        }, {
+            "anchor": "",
+            "titre": "",
+            "titre_original": "Une démocratie rénovée",
+            "description_originale": "Année après année, le regard que nous portons sur notre classe politique se dégrade sans que rien ne change vraiment. <br/>Il est faux de prétendre que rien n’a été fait pour tenter de retisser un lien de confiance entre la Nation et ses représentants. Mais ce n’est pas assez. Des pratiques que l’on pensait impossibles, parce qu’elles sont à l’évidence inacceptables, sont en réalité répandues – comme l’embauche par les élus de membres de leur propre famille. Le soupçon s’est installé, qui nourrit les extrêmes et affaiblit notre vie politique. <br/>Il faut donc aller plus loin dans la transparence et l’exigence. Mais il faut aussi avoir le courage d’aller plus loin vers la confiance et la proximité. Nos représentants nous ressemblent trop peu... La France est en effet peuplée pour une bonne moitié de femmes, pour un bon quart de jeunes, pour un bon cinquième de Français d’origine étrangère plus ou moins lointaine... Or ces visages, cette diversité, ces parcours différents, nous ne les retrouvons pas assez sur les bancs du Parlement !",
+            "mesures": [{
+                "anchor": "",
+                "title": "Nous proposerons une grande loi de moralisation de la vie publique",
+                "description": "Elle comprendra : <ul> <li>L’interdiction pour les parlementaires d’exercer des activités de conseil parallèlement à leur mandat, pour mettre fin aux conflits d’intérêt. Toutes leurs indemnités seront soumises à l’impôt.</li> <li>L’interdiction de toute embauche par un élu ou un ministre d’un membre de sa famille.</li>	<li>L’interdiction du cumul de plus de trois mandats identiques successifs.</li> <li>L’interdiction pour tous les détenteurs d’un casier judiciaire		 (niveau B2) de se présenter à une élection.</li> <li>La suppression du régime spécial des retraites  des parlementaires. Ils seront rattachés au régime général.</li> <li> La présentation, par le  président de la République, de son bilan national et européen une fois par an devant le Congrès.</li> </ul>",
+                "sources": [{ "href": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf", "label": "Programme d'Emmanuel Macron en 2017" }],
+                "tenu": false,
+                "sources_tenu": [],
+                "remarques": "",
+                "tags": []
+            }]
         }
     ]
 };
