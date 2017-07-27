@@ -787,6 +787,15 @@ var data_2017 = {
                     "sources_tenu": [],
                     "remarques": "Nombre de maisons des pôles de santé en 2016 : 1000.",
                     "tags": ["santé", "maison de santé", "social"]
+                }, {
+                    "anchor": "",
+                    "title": "Nous donnerons accès à un(e) auxiliaire de vie scolaire à tous les enfants qui en ont besoin pour avoir une scolarité comme les autres.",
+                    "description": "",
+                    "sources": [{ "href" = "", "label": "Programme d'Emmanuel Macron en 2017" }],
+                    "tenu": false,
+                    "sources_tenu": [],
+                    "remarques": "",
+                    "tags": []
                 }
             ]
         }
