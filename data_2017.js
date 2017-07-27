@@ -788,14 +788,23 @@ var data_2017 = {
                     "remarques": "Nombre de maisons des pôles de santé en 2016 : 1000.",
                     "tags": ["santé", "maison de santé", "social"]
                 }, {
-                    "anchor": "",
+                    "anchor": "auxiliaire-scolaire-handicapes",
                     "title": "Nous donnerons accès à un(e) auxiliaire de vie scolaire à tous les enfants qui en ont besoin pour avoir une scolarité comme les autres.",
-                    "description": "",
-                    "sources": [{ "href" = "", "label": "Programme d'Emmanuel Macron en 2017" }],
+                    "description": "Ces AVS auront un emploi stable et un salaire décent.",
+                    "sources": [{ "href": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf", "label": "Programme d'Emmanuel Macron en 2017" }],
                     "tenu": false,
                     "sources_tenu": [],
                     "remarques": "",
-                    "tags": []
+                    "tags": ["éducation nationale", "emploi", "handicap", "social"]
+                }, {
+                    "anchor": "allocation-adulte-handicape",
+                    "title": "Nous augmenterons de 100 euros par mois l’Allocation Adulte Handicapé (AAH).",
+                    "description": "",
+                    "sources": [{ "href": "https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf", "label": "Programme d'Emmanuel Macron en 2017" }],
+                    "tenu": false,
+                    "sources_tenu": [],
+                    "remarques": "",
+                    "tags": ["handicap", "social"]
                 }
             ]
         }
